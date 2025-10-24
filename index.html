@@ -2070,6 +2070,8 @@ map.addLayer({
     'type': 'fill',
     'source': 'buildings-2020-source',
     'source-layer': 'building_20-crcjhp',
+    'minzoom': 10,              // ← Bu satırı ekleyin
+    'maxzoom': 22,              // ← Bu satırı ekleyin
     'paint': {
         'fill-color': '#c8d5e3',
         'fill-opacity': 1
@@ -2147,3 +2149,4 @@ document.getElementById('popupOverlay').addEventListener('click', function() {
 </script>
 </body>
 </html>
+
